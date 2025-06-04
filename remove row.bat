@@ -64,7 +64,7 @@ for %%i in ("%input%") do (
 )
 
 :: Hapus 7 baris pertama
-more +8 "%input%" > "%output%"
+more +7 "%input%" > "%output%"
 
 if exist "%output%" (
     echo ✓ Berhasil: %output%
